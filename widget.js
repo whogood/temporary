@@ -17,7 +17,7 @@
   }
 
   var ref = getReferrer();
-  var scriptName = 'id.js';
+  var scriptName = 'https://raw.githubusercontent.com/whogood/temporary/master/id.js';
   if (ref) {
     scriptName += '?original_referer=' + ref;
   }
